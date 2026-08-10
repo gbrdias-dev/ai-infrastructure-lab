@@ -23,7 +23,7 @@ PARA AMD
 	sudo apt install -y libclblast-dev rocminfo rocm-smi libhipblas-dev hipcc
 
 	caso a placa esteja listada a abaixo usar comando mais específico.
-	sudo cmake -B build -DGGML_HIP=ON -DAMDGPU_TARGETS=gfx1102 -DCMAKE_BUILD_TYPE=Release
+	sudo cmake -B build -DGGML_HIP=ON -DAMDGPU_TARGETS=gfx1100 -DCMAKE_BUILD_TYPE=Release
 
 	 - gfx1101 / gfx1102: RX 7800 XT / RX 7700 XT / RX 7600
 	 - gfx1030: RX 6900 XT / RX 6800 XT / RX 6700 XT
