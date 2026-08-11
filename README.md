@@ -1,15 +1,15 @@
-# 🚀 AI Infrastructure Lab
+# AI Infrastructure Lab
 
 > Laboratório de infraestrutura para Inteligência Artificial desenvolvido para hospedagem, execução, gerenciamento, balanceamento e monitoramento de modelos de linguagem (LLMs) em ambiente local (Self-Hosted).
 
 ---
-## 🏷️ Tags
+## Tags
 
 `AI Infrastructure` `LLM` `Local AI` `Ollama` `llama.cpp`
 `Open WebUI` `Docker` `Linux` `Proxmox` `NGINX`
 `Load Balancing` `Zabbix` `Self-Hosted` `Homelab`
 
-# 📖 Sobre o projeto
+# Sobre o projeto
 
 O **AI Infrastructure Lab** é um laboratório desenvolvido com o objetivo de estudar e implementar uma infraestrutura completa para execução local de modelos de Inteligência Artificial.
 
@@ -21,7 +21,7 @@ O projeto também busca reproduzir, em ambiente de laboratório, conceitos utili
 
 ---
 
-# 🎯 Objetivos
+# Objetivos
 
 - 🤖 Hospedar e executar modelos de IA localmente
 - 🧠 Estudar diferentes engines de inferência
@@ -36,7 +36,7 @@ O projeto também busca reproduzir, em ambiente de laboratório, conceitos utili
 
 ---
 
-# 🏗️ Arquitetura
+# Arquitetura
 
 A infraestrutura atualmente é composta por servidores físicos e virtuais.
 
