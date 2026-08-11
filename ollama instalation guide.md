@@ -1,0 +1,25 @@
+# INSTALAÇÃO DO OLLAMA NO UBUNTU SERVER 26.04 LTS
+
+Comando de instalação do Ollama no Linux:
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Comando para instalação dos modelos de IA:
+```
+ollama run "nome-do-modelo"
+```
+
+Para listar todos os modelos na memória: 
+```
+ollama ps
+```
+Para listar os modelos disponíveis: 
+```
+ollama ls
+```
+
+Comando para finalizar e descarregar um modelo:
+```
+ollama stop "nome-do-modelo"
+```
