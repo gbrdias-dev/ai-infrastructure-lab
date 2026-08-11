@@ -1,7 +1,9 @@
 # Configurando o balanceamento de carga com Nginx
 
 Primeiro você precisa criar um arquivo de configuração com o seguinte comando: 
+```
 sudo nano /etc/nginx/conf.d/ollama.conf
+```
 
 Em seguida coloque essas configurações no arquivo:
 
