@@ -1,10 +1,11 @@
-#Configurando o balanceamento de carga com Nginx
+# Configurando o balanceamento de carga com Nginx
 
 Primeiro você precisa criar um arquivo de configuração com o seguinte comando: 
 sudo nano /etc/nginx/conf.d/ollama.conf
 
 Em seguida coloque essas configurações no arquivo:
 
+```
 upstream ollama_servers {
     hash $http_x_forwarded_for consistent;
 
@@ -37,3 +38,4 @@ server {
     }
 
 }
+```
